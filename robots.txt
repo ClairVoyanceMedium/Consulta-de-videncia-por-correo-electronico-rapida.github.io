@@ -1,43 +1,59 @@
-# robots.txt optimizado para clairvoyancemedium.com (mercado español)
+# Fichero robots.txt optimizado para https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/
+# Fecha: 2025-01-08
 
-# Permite que todos los motores de búsqueda indexen el contenido principal
+# Bloqueo de directorios sensibles
 User-agent: *
+Disallow: /admin/
+Disallow: /privado/
+Disallow: /scripts/
+Disallow: /temp/
+
+# Permitir acceso a los motores de búsqueda principales
+User-agent: Googlebot
 Allow: /
 
-# Bloquea directorios sensibles o irrelevantes para SEO
-Disallow: /admin/
-Disallow: /login/
-Disallow: /carrito/
-Disallow: /pago/
-Disallow: /privado/
-Disallow: /tmp/
-Disallow: /404/
+User-agent: Bingbot
+Allow: /
 
-# Bloquea URLs con parámetros específicos innecesarios para SEO
-Disallow: /*?sessionid=
+User-agent: YandexBot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Evitar contenido duplicado
+Disallow: /*?utm_source=
 Disallow: /*?ref=
 
-# Impide el acceso a archivos específicos no necesarios
-Disallow: /favicon.ico
-Disallow: /robots.txt
-Disallow: /*.php$
-Disallow: /*.json$
-Disallow: /*.xml$
-Disallow: /*.txt$
+# Prioridad para las versiones en español
+Allow: /
+Allow: /faq/
+Allow: /tarifas/
+Allow: /avisos/
 
-# Permite a los motores de búsqueda acceder a archivos esenciales
-Allow: /imagenes/
-Allow: /css/
-Allow: /js/
+# Sitemap para guiar a los bots
+Sitemap: https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/sitemap.xml
 
-# Enlace al sitemap para facilitar la indexación
-Sitemap: https://clairvoyancemedium.github.io/sitemap.xml
+# Configuración para evitar sobrecarga del servidor
+Crawl-delay: 10
 
-# Restricciones específicas para ciertos bots
-User-agent: AhrefsBot
+# Bloqueo de archivos no necesarios
+Disallow: /*.zip
+Disallow: /*.exe
+Disallow: /*.tar.gz
+
+# Acceso a datos estructurados y contenido dinámico
+Allow: /structured-data/
+Allow: /json-ld/
+Allow: /api/
+Allow: /dynamic/
+Allow: /ajax/
+
+# Bloqueo de bots no deseados
+User-agent: MJ12bot
 Disallow: /
 
-User-agent: MJ12bot
+User-agent: AhrefsBot
 Disallow: /
 
 User-agent: SemrushBot
@@ -45,3 +61,20 @@ Disallow: /
 
 User-agent: DotBot
 Disallow: /
+
+# Compatibilidad con asistentes de voz
+User-agent: GoogleAssistant
+Allow: /
+
+User-agent: AlexaBot
+Allow: /
+
+User-agent: SiriBot
+Allow: /
+
+# Políticas estrictas de exploración
+User-agent: *
+Disallow: /cache/
+
+# Otros sitemaps
+Sitemap: https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/sitemap-es.xml
