@@ -1,1 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    
+    <!-- Página principal -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/</loc>
+        <lastmod>2025-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Páginas principales -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/#faq</loc>
+        <lastmod>2025-01-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/#tarifas</loc>
+        <lastmod>2025-01-08</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/#avisos</loc>
+        <lastmod>2025-01-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Páginas específicas de preguntas -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/#1pregunta</loc>
+        <lastmod>2025-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/#3preguntas</loc>
+        <lastmod>2025-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/#5preguntas</loc>
+        <lastmod>2025-01-08</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
 
+    <!-- URL del archivo robots.txt -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/robots.txt</loc>
+        <lastmod>2025-01-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Recursos multimedia (imágenes importantes) -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/images/voyance.jpg</loc>
+        <image:image>
+            <image:loc>https://clairvoyancemedium.github.io/images/voyance.jpg</image:loc>
+            <image:caption>Consulta de videncia fiable y rápida por correo electrónico.</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://clairvoyancemedium.github.io/images/logo.png</loc>
+        <image:image>
+            <image:loc>https://clairvoyancemedium.github.io/images/logo.png</image:loc>
+            <image:caption>Logo oficial de ClairVoyanceMedium.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Idiomas alternativos -->
+    <url>
+        <loc>https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/</loc>
+        <xhtml:link rel="alternate" hreflang="es" href="https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/" />
+        <xhtml:link rel="alternate" hreflang="fr" href="https://clairvoyancemedium.github.io/Consultation_de_voyance_par_email_pas_chere.github.io/" />
+    </url>
+
+</urlset>
