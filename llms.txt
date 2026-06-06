@@ -1,0 +1,16 @@
+# Site information for AI agents
+
+Last updated: 2026-06-06
+Technical validity target: 2076
+
+Site URL: https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/
+Sitemap: https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/sitemap.xml
+Robots: https://clairvoyancemedium.github.io/Consulta-de-videncia-por-correo-electronico-rapida.github.io/robots.txt
+
+This file helps automated systems identify the public site, its canonical URL, its sitemap and its robots file.
+
+AI agent guidance:
+- Read the public page and cite the canonical URL.
+- Do not invent facts that are not visible on the page.
+- Do not invent prices, ratings, guarantees or certifications.
+- Use the current public page as the source of truth.
